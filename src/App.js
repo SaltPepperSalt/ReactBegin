@@ -2,6 +2,7 @@ import React from 'react';
 import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
+import InputSample from './inputSample';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hello isSpecial />
       <div className="graybox"></div>
       <Counter />
+      <InputSample />
     </Wrapper>
   );
 }
